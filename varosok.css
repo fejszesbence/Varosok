@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+main {
+    min-height: 100vh;
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+#urlap {
+    padding: 40px;
+}
+
+#beKeres, #valaszSelect, #urlap label {
+    width: 300px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#valaszTable, #valaszTable * {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
